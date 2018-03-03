@@ -7,6 +7,12 @@ https://developers.activecollab.com/api-documentation/v1/people/users/all.html
 
 # Getting Started
 
+Install requirements:
+
+```
+pip install -r requirements.txt 
+```
+
 Create a config file:
 
 ```
@@ -18,6 +24,13 @@ time you launch the cli. I'm not sure what client_name is for but it needs to
 be set to authenticate against the api. The client_vendor is probably the name
 of your company. Url is the full url of your active collab instance plus the
 endpoint of the api e.g `https://activecollab.example.com/api/v1`.
+
+Run the cli
+
+```
+chmod +x cli.py
+./cli.py
+```
 
 # Features
 
