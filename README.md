@@ -1,7 +1,7 @@
-# Self Hosted Active Collab 5 CLI application.
+# Python 3 Self Hosted Active Collab 5 CLI application.
 
-Cli app for working with the self hosted collab api. Very unstable and prone to
-breaking.
+Python 3 only Cli app for working with the self hosted collab api. Very
+unstable and prone to breaking.
 
 https://developers.activecollab.com/api-documentation/v1/people/users/all.html
 
