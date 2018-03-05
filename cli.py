@@ -68,6 +68,8 @@ class WeekFuzzyCompleter(Completer):
             """
             if dt.weekday() != 0:
                 monday_dt = dt - datetime.timedelta(days=dt.weekday())
+            else:
+                monday_dt = dt
             sunday_dt = monday_dt + datetime.timedelta(days=6)
             return '{} to {}'.format(
                 monday_dt.strftime('%Y-%m-%d'), sunday_dt.strftime('%Y-%m-%d'))
